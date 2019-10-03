@@ -5,8 +5,9 @@ RUN apt update -y && \
     apt install dnsutils  -y && \
     apt install net-tools  -y && \
     apt install iproute2  -y  && \
-    apt install curl -y
-
+    apt install curl -y && \
+    echo "ping nslookup curl ip" > README.md
+ 
 
 
 
