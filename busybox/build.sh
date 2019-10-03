@@ -1,0 +1,1 @@
+docker build --no-cache -t qiujiahong/busybox:v1.0  ./ 
